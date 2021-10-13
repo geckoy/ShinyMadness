@@ -1,0 +1,2517 @@
+/* Theme Name: ShinyMadness */
+/*********************************************************************
+******************** Indexes *****************************************
+**********************************************************************
+===============================
+~~ Index  ~~  || ~~             Page             ~~
+##01          || Page Global selector
+##02          || Content.php
+##03          || Header.php
+##04          || Footer
+##05          || front-page.php
+##06          || Single-Product-page
+##07          || page.php
+##08          || Discord chat aside.php
+##09          || woocommerce
+##10          || content-search.php
+##11          || product.php
+##12          || faq.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***********************************************************************
+***********************************************************************
+**********************************************************************/
+/*gradient animator*/
+/* .css-selector {
+    -webkit-animation: animategradient 0s ease infinite;
+    -moz-animation: animategradient 0s ease infinite;
+    -o-animation: animategradient 0s ease infinite;
+    animation: animategradient 0s ease infinite;
+}
+
+@-webkit-keyframes animategradient {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+@-moz-keyframes animategradient {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+@-o-keyframes animategradient {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+@keyframes animategradient {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+} */
+
+@keyframes example {
+     0% {transform: translate(0px,0px);}
+    10% {transform: translate(0px,2px);}
+    20% {transform: translate(0px,4px);}
+    30% {transform: translate(0px,6px);}
+    40% {transform: translate(0px,8px);}
+    50% {transform: translate(0px,10px);}
+    60% {transform: translate(0px,8px);}
+    70% {transform: translate(0px,6px);}
+    80% {transform: translate(0px,4px);}
+    90% {transform: translate(0px,2px);}
+   100% {transform: translate(0px,0px);}
+    
+}
+
+.info_container_card 
+{
+    height: 320px;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #fec803;
+    text-align: center;
+}
+.info_container_card img
+{
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.info_container_card button
+{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.info_container_card .middle_info_container_card
+{
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+.tooltip_content
+{
+    font-size: medium;   
+}
+
+
+.text_mobile_shop_holder h1
+{
+    font-family: Ubuntu,sans-serif;
+    color: #fec803;
+}
+.text_mobile_shop_holder p:last-child
+{
+    color: goldenrod;
+    font-size: larger;
+    font-weight: bold;
+}
+.text_mobile_shop_holder p:first-child
+{
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+/* Front page header */
+    
+    .carousels_videos 
+    {
+        width:100%;
+        height:100%;
+        padding:0px;
+        margin:0px;
+        object-fit: cover;
+    }
+
+
+
+
+
+/* Footer links */
+
+
+.footer-widget-socials .social .large
+{
+    height: 50%;
+}
+
+.footer-widget-socials .social .mid 
+{  
+    height: 30%;
+}
+
+.footer-widget-socials .social .small
+{   
+    height: 20%;
+}
+.footer-widget-socials .social .facebook
+{
+    background-color: #3c5a99 !important;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.footer-widget-socials .social .youtube
+{
+    background-color: #fe0000 !important;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.footer-widget-socials .social .whatsapp
+{
+    background-color: #30bf39 !important;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.footer-widget-socials .social .discord
+{
+    background-color: #5165f6 !important;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.footer-widget-socials .social .twitter
+{
+    background-color: #5da8dd !important;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.footer-widget-socials .social .instagram
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background: #d6249f;
+    /* background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.footer-widget-socials .social div:hover
+{
+    transform: scale(1.1,1.1);
+    z-index: 100;
+    cursor: pointer;
+}
+.footer-widget-socials .social div:hover i
+{
+    font-size: larger;
+}
+.footer-widget-socials .social .facebook:hover {filter:drop-shadow(8px 8px 10px #3c5a99);}
+.footer-widget-socials .social .youtube:hover {filter:drop-shadow(8px 8px 10px #fe0000);}
+.footer-widget-socials .social .whatsapp:hover {filter:drop-shadow(8px 8px 10px #30bf39);}
+.footer-widget-socials .social .discord:hover {filter:drop-shadow(8px 8px 10px #5165f6);}
+.footer-widget-socials .social .twitter:hover {filter:drop-shadow(8px 8px 10px #5da8dd);}
+.footer-widget-socials .social .instagram:hover {filter:drop-shadow(8px 8px 10px #f09433);}
+
+
+
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*##01#################################################################*/
+/*###################### Page Global selector #########################*/
+/*#####################################################################*/
+    html {
+        height: 100vh;
+    }
+    .shadow_tarts 
+    {
+        box-shadow: 0 1rem 3rem rgba(0,0,0,1)!important;
+    }
+    .z-index1
+    {
+        z-index:1;
+    }
+    .z-index2
+    {
+        z-index:2;
+    }
+    .z-index3
+    {
+        z-index:3;
+    }
+    .z-index4
+    {
+        z-index:4;
+    }
+    #body {
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        /* background-image: url('images/legendarypokemons.png');
+        background-repeat:repeat-y;
+        background-size: cover;   */     
+        /* background: #232526;   *//* fallback for old browsers #007be3*/
+        background: #fec803;
+       /*  background: #232526; 
+        background: -webkit-linear-gradient(to right, #414345, #232526);  
+        background: linear-gradient(to right, #414345, #232526); */ 
+
+    }
+    /* Scroll Bar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+        }
+    /* Disable Text selection */
+        .noselect {
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+        }
+    /* body */
+    .bodycontroloverflowhidden {
+        overflow-y: hidden;
+    }
+    .bodycontroloverflowshow {
+        overflow-y: scroll; 
+    }
+    /* Loading screen */
+    .loaderscrn {
+        position:fixed;
+        height:100vh;
+        width:100%;
+        top:0%;
+        left:0%;
+        background-color:black;
+        z-index:2000;
+        
+    }
+    .loaderscrn img{
+        display:block;
+        margin-top:20%;
+        width:200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .loaderscrn p{
+        color:white;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 10px;
+    }
+    .hiddenvisibility {
+        visibility: hidden;
+    }
+    .bounce1 { 
+        animation-name: bounce;
+        animation-duration: .5s;
+        animation-iteration-count: infinite;
+    }    
+    .bounce2 {
+        animation-name: bounce;
+        animation-duration: .5s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+    }
+    .bounce3 {
+        animation-name: bounce;
+        animation-duration: .5s;
+        animation-iteration-count: infinite;
+    }                         
+    @keyframes bounce {
+        0% {opacity: 0;}
+        25% {opacity: 0.25;}
+        50% {opacity: 0.5;}
+        75% {opacity: 0.75;}
+        100% {opacity: 1;}
+    }
+
+    #main-posts {
+        min-height: 600px;
+        padding: 40px;
+        flex: 1;
+        background-color: white;
+    }
+    @media screen and (max-width:1024px)
+    {
+        #main-posts {
+            padding: 10px!important;
+        }
+        .flickity-prev-next-button.previous {
+            left: -10px!important;
+        }
+        .flickity-prev-next-button.next {
+            right: -10px!important;
+        }
+    }
+    .static_filter_btn_wrapper
+    {
+        background-color:#640505;
+        color: white;
+    }
+    .static_filter_btn_wrapper div.row
+    {
+        padding: 10px;
+    }
+   
+    /* Color */
+    .bg-poke-blue 
+    {
+        background-color:#007be3;
+    }
+
+
+    
+/*##02#################################################################*/
+/*###################### Content.php ##################################*/
+/*#####################################################################*/
+    /* article.post {
+        border-bottom: solid black;
+    } */
+    /* article.post:last-of-type {
+        border-bottom: none;
+    } */
+    #post 
+    {
+        background-color: #555;
+    }
+
+    .ptype-page .post_thumb
+    {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        border: solid;
+        border-color: #fec803;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    #post-image img {
+        width:100%!important;
+        height: 300px!important;
+        object-fit: cover;
+    }
+    .journal-link{
+        text-decoration: none;
+        color: #089996;
+    }
+    .journal-link:hover {
+        text-decoration: none;
+        color: #045755;
+    }
+    .journal_post {
+        background-color: rgba(18,18,18,1);
+        margin-bottom: 20px;
+    }
+/*
+.ptype-post 
+{
+
+}
+ */
+
+/*##03#################################################################*/
+/*###################### Header.php ###################################*/
+/*#####################################################################*/
+    /* Header */
+        #reviewlogo {
+            margin-top:3px;
+            max-width:45px !important;
+        }
+        #faqlogo {
+            max-width:57px !important;
+            margin-top:4px;
+        }
+        #Homelogo {
+            margin-top:6px;
+            max-width:52px !important;
+        }
+        #Shoplogo {
+            margin-top:3.5px;
+            max-width:80px !important;
+        }
+        .navbar-brand img{
+            width:200px;
+        }
+    /* Sub header */
+        .subheader {
+            border-bottom:solid rgb(48, 52, 54);
+            width:100%;
+            height:100px;
+            background-repeat: no-repeat;
+            background-size:100%;
+            background-position: center;
+        }
+        #subheaderTitle {
+            float:left;
+            margin-left:10px;
+            display:block;
+            height:110px;
+        }
+        
+        .slash-1 {
+            height: 10px;
+            color: #fec803;
+            background-image: linear-gradient(-45deg,
+            transparent,
+            transparent 25%,
+            currentColor 25%,
+            currentColor 50%,
+            transparent 50%,
+            transparent 75%,
+            currentColor 75%);
+            background-size: 10px 10px;
+            margin: 0px;
+            width: 100%;
+            background-color:  #007be3;
+            animation: animatehr 30s linear infinite;
+        }
+        @keyframes animatehr {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+    /* Search form */
+        .search-form {
+            float:right;
+            margin-top:10%;
+        }
+        .search-field {
+            border-radius: 10px;
+        }
+        .search-submit {
+            border-radius: 3px;
+        }
+
+/*##04#################################################################*/
+/*###################### Footer.php ###################################*/
+/*#####################################################################*/
+#footer {
+    width: 100%;
+}
+#footer > div:first-child
+{
+    border-top:solid rgb(48, 52, 54) 3px;
+    min-height:300px;
+    width:100%;
+    background-color:rgb(10 48 80);
+}
+.footer-widget
+{
+    text-align:left;
+    list-style-type: none;
+    line-height: 2.2;
+    padding:5px;
+}
+.footer-widget a
+{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16px;
+}
+.footer-widget a:hover
+{
+    color: rgb(175, 175, 0);
+}
+.footer-widget h4
+{
+    color: white;
+}
+.privacy-policy-footer 
+{
+    background-color:rgb(38, 42, 43);
+    color:white;
+    height:50px;
+    width:100%;
+    text-align:center;
+}
+
+/*************************\ Footer front page /*************************/
+.footer
+{
+    min-height:300px;
+    width:100%;
+    background-color:#2f98f1;
+}
+
+
+
+
+
+
+/*##05#################################################################*/
+/*###################### front-page.php ###############################*/
+/*#####################################################################*/
+
+/* First Layer */
+
+    /* Navbar */
+        /* Wrapper of Navigation menu and carousel */
+            .navwrapper {
+                height:100vh;
+                width:100%;
+                background-color: black;
+            }
+        /* Selector of navigation Menu */
+            #navbarfirst {
+                z-index:15;
+            }
+
+        /* Navbar action */
+            .displaynavbackground {
+                background-color: rgb(11, 11, 12);
+                transition: .3s;
+            }
+            
+            .hiddenavbackground {
+                background-color: transparent;
+                transition: .3s;
+            }
+
+        /* Selector of navbar item 'home, shop,...etc' */
+        @media screen and (min-width: 992px) {
+            .nav-item {
+                margin-left: 30px;
+                padding-top: 1%;
+                font-family: poppins, sans-serif;
+                font-size: 17px;
+                font-weight: 550;
+            }
+            .Bsfont {
+                color:white;
+                margin-top:70%;
+                cursor: pointer;
+                width: 30px;
+                height: 30px;
+            }
+            .Bsfont:hover {
+                color: blue;
+            }
+            /* Animation on hover */
+                .imagenavlistitem:hover a {
+                    animation-name: animationonhover;
+                    animation-duration: .2s;
+                    animation-iteration-count:1;
+                }
+                
+                @keyframes animationonhover {
+                    0%   {transform: translate(0px,0px);}
+                    25%  {transform: translate(0px,5px);}
+                    50%  {transform: translate(0px,-5px);}
+                    100% {transform: translate(0px,0px);}
+                }
+            
+        }
+            
+            
+
+        /* Navbar collapse For mobile */ 
+            @media screen and (max-width:991px){
+                
+                #collapsibleNavbar {
+                    position: fixed;
+                    top:0; 
+                    bottom: 0;
+                    left: 100%;
+                    width: 100%;
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                    overflow-y: auto;
+                    visibility: hidden;
+                    backdrop-filter: blur(50px);
+                    /* background-color: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);;
+                    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+                    transition: .3s;
+                    
+                    /* background: radial-gradient(circle, rgba(1,122,226,1) 0%, rgba(254,200,3,1) 100%); */
+                    
+                }
+                
+                #collapsibleNavbar.show {
+                    visibility: visible;
+                    left: 0%;
+                }
+                .imagemobilenav{
+                    margin-top: 10%;
+                }
+                .nav-item {
+                    text-align: center;
+                    font-size: 7vw;
+                    margin-top: 2%;
+                    padding: 1%;
+                    border: solid;
+                    border-color: #fec803;
+                    font-weight: bold;
+                    background-color: #007be3;
+                    margin-bottom: 5%;
+                    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+                    border-radius: 10px;
+                }
+                .Bsfont {
+                    height: 10vw;
+                    width: 10vw;
+                    color: white;
+                }
+                .overflownone{
+                    overflow-y: hidden;
+                }
+                .closebtnmobile{
+                    float:right;
+                    color:white;
+                    margin-top:3%;
+                    font-weight: bold;
+                    padding: 1vw;
+                    
+                }
+                
+            }
+
+            
+    /* Flickity Carousel */
+        
+        /* Cell sizing */
+            .carousel-cell {
+                width: 100%!important; /* full width 100vw */
+                height: 100vh; /* full height 100vh */
+                margin-right: 0px;
+                box-sizing: border-box;
+            }
+
+            #carousel {
+                z-index:5;
+                position:absolute;
+                top:0%;
+                width:100%!important;
+                box-sizing: border-box;
+            }
+        /* Carousel items */
+            /* carousel wrapper img and text */
+                .carousellItems {
+                    height:100%;
+                    width: 100%!important;
+                    position: relative;
+                    box-sizing: border-box;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+           
+                
+                /* For Desktop */
+                    @media screen and (min-width:992px){
+                        /* Cell Text */
+                            .carouseltext {
+                                left:5%;
+                                position:absolute;
+                                top:40%;
+                                overflow: hidden;
+                                font-family: Ubuntu,sans-serif;
+                            } 
+                        
+                        /* Visible */
+                        /* Cell text transparent box */
+                        .carouseltexttransbox {
+                            transition: .5s;
+                            padding-left: 4px;
+                            font-size: 1.5vw;
+                            color:white;
+                            overflow:hidden;
+                            background-color:rgba(1, 122, 226,0.5);
+                            padding-top: 20px;
+                            padding-right: 20px;
+                            padding-left: 20px;
+                        }
+                        /* Cell text Header */
+                        .carouseltextheader {
+                            transition: .7s;
+                            margin-bottom:5%;
+                            color:white;
+                            transform: translate(0px,0px);
+                            min-width:40vw;
+                            font-size:4.4vw;
+                        }
+                        /* Cell text btn */
+                        .carouseltextbtn{
+                            transition: .5s;
+                            text-decoration:none;
+                            margin-top: 5%;
+                            color:#007be3;
+                            background-color: #fec803;
+                            font-size:1.4vw;
+                            padding:1vw;
+                            font-weight: bold;
+                            transform: translate(0px,0px);
+                            display: inline-block;
+                        }
+                        .carouseltextbtn:hover{
+                            text-decoration:none;
+                            color: rgba(1,122,226,1);
+                            background-image: linear-gradient(135deg, #ececec 0%, #f8f8f8 100%);
+                        }
+
+                        /* hidden */
+                        /* Cell text transparent box */
+                        .carouseltexttransboxhidden {
+                            visibility: hidden;
+                            padding-left: 4px;
+                            font-size: 1.5vw;
+                            color:white;
+                            transition: .5s;
+                            overflow:hidden;
+                            
+                            background-color:rgba(1, 122, 226,0.5);
+                        }
+                        /* Cell text Header */
+                        .carouseltextheaderhidden {
+                            visibility: hidden;
+                            transition: .7s;
+                            opacity: 1;
+                            transform: translate(-1000px,0px);
+                            margin-bottom:2%;
+                            color:white;
+                            min-width:40vw;
+                            font-size:4.4vw;
+                        }
+                        /* Cell text btn */
+                        .carouseltextbtnhidden{
+                            visibility: hidden;
+                            transition: .5s;
+                            margin-top: 5%;
+                            color:white;
+                            text-decoration:none;
+                            background-image: linear-gradient(90deg, rgba(254,200,3,1) 0%, rgba(1,122,226,1) 100%);
+                            font-size:1.4vw;
+                            padding:1vw;
+                            font-weight: bold;
+                            transform: translate(-700px,0px);
+                            display: inline-block;
+                        }
+                    }
+
+                /* For Mobile */
+                @media screen and (max-width:991px){
+                    /* Cell Text */
+                        .carouseltext {
+                            left:5%;
+                            position:absolute;
+                            top:30vh;
+                            overflow: hidden;
+                        } 
+                    
+                    /* Visible */
+                    /* Cell text transparent box */
+                    .carouseltexttransbox {
+                        transition: .5s;
+                        padding-left: 4px;
+                        width: 90%;
+                        color:white;
+                        background-color:rgba(1, 122, 226,0.5);
+                        overflow:hidden;   
+                    }
+                    /* Cell text Header */
+                    .carouseltextheader {
+                        transition: .5s;
+                        margin-bottom:5%;
+                        color:white;
+                        transform: translate(0px,0px);
+                        font-size:40px;
+                    }
+                    /* Cell text btn */
+                    .carouseltextbtn{
+                        transition: .5s;
+                        text-decoration:none;
+                        margin-top: 5%;
+                        color:#007be3;
+                        background-color: #fec803;
+                        font-size:17px;
+                        padding:2vw;
+                        font-weight: bold;
+                        transform: translate(0px,0px);
+                        display: inline-block;
+                    }
+                    .carouseltextbtn:hover{
+                        text-decoration:none;
+                        color: #017ae2;
+                        background-image: linear-gradient(135deg, #ececec 0%, #f8f8f8 100%);
+                    }
+
+                    /* hidden */
+                    /* Cell text transparent box */
+                    .carouseltexttransboxhidden {
+                        visibility: hidden;
+                        padding-left: 4px;
+                        width: 90%;
+                        color:white;
+                        transition: .5s;
+                        background-color:rgba(1, 122, 226,0.5);
+                        overflow:hidden;
+                    }
+                    /* Cell text Header */
+                    .carouseltextheaderhidden {
+                        visibility: hidden;
+                        transition: .5s;
+                        transform: translate(-400px,0px);
+                        margin-bottom:2%;
+                        color:white;
+                        font-size:40px;
+                    }
+                    /* Cell text btn */
+                    .carouseltextbtnhidden{
+                        visibility: hidden;
+                        transition: .5s;
+                        color:white;
+                        text-decoration:none;
+                        background-image: linear-gradient(90deg, rgba(254,200,3,1) 0%, rgba(1,122,226,1) 100%);
+                        font-size:17px;
+                        padding:2vw;
+                        font-weight: bold;
+                        transform: translate(-700px,0px);
+                        display: inline-block;
+                    }
+                }
+
+    /* Social icons */
+        
+        /* For Desktop */
+            @media screen and (min-width:992px){
+                /* Social Icons holder */
+                    .socialiconsholder {
+                        position:absolute;
+                        top:80%;
+                        z-index:10;
+                        right:5%;
+                        color:white;
+                    }
+                .discordlogo, .facebooklogo{
+                    display:block;
+                    font-size: 5vw;
+                    cursor: pointer;
+                    transition: .3s;
+                }
+                .discordlogo:hover {
+                    color:#8a9cfe;
+                    font-size: 5.5vw;
+                    transition: .3s;
+                } 
+                .facebooklogo:hover {
+                    color:#3b5998;
+                    font-size: 5.5vw;
+                    transition: .3s;
+                }
+            }
+        /* For mobile */
+            @media screen and (max-width:991px){
+                /* Social Icons holder */
+                    .socialiconsholder {
+                        position:absolute;
+                        top:70%;
+                        z-index:10;
+                        right:5%;
+                        color:white;
+                    }
+                .discordlogo, .facebooklogo{
+                    display:block;
+                    font-size: 50px;
+                    cursor: pointer;
+                    transition: .3s;
+                }
+                .discordlogo:hover {
+                    color:#8a9cfe;
+                    font-size: 34px;
+                    transition: .3s;
+                } 
+                .facebooklogo:hover {
+                    color:#3b5998;
+                    font-size: 54px;
+                    transition: .3s;
+                }
+            }   
+
+/* Second Layer */
+    /* Boxes underneath slider */
+        /* For Desktop */
+        @media screen and (min-width:992px){
+            /* Wrapper of container 'boxes underslider' the blue background */
+                .underslider {
+                    background-size: 100px 280px;
+                    background-repeat: repeat-x;
+                    animation: marquee 30s infinite linear;
+                    background-color:rgb(0, 102, 180);
+                } 
+            /* Row wrapper of 'boxes underslider' */
+                .boxesunderslider {
+                    overflow:visible;
+                    height:280px;
+                }
+                .boxunderslide:hover {
+                    min-height: 300px;
+                }
+            /* Single selector of div items of boxes that are underslider */
+                .boxunderslide {
+                    height:280px;
+                    border:solid;
+                    border-color:white;
+                    border-width:1px;
+                    background-color:#fec803;
+                    text-align: center;color:black;
+                }
+                .boxesheaders{
+                    font-family: 'Lucida Sans Unicode', Arial, Sans-serif;
+                    cursor: context-menu;
+                }
+                .boxestext{
+                    padding-left:2px;
+                    padding-right:2px;
+                    font-size:15px;
+                    font-family: 'Lucida Sans Unicode', Arial, Sans-serif;
+                    cursor: context-menu;
+                }
+                .imagesinbox{
+                    margin-top:08%;
+                    margin-bottom:3%;
+                    display:block;
+                    margin-right:auto;
+                    margin-left:auto;height:50%;
+                }
+                            
+                @keyframes marquee {
+                    0% {
+                    background-position: 0;
+                    }
+                    100% {
+                    background-position: -1190px;
+                    }
+                }
+        }  
+    /* For Mobile */
+        @media screen and (max-width:991px){
+            /* Wrapper of container 'boxes underslider' the blue background */
+                .underslider {
+                    background-size: 100px 990px;
+                    background-repeat: repeat-x;
+                    animation: marquee 30s infinite linear;
+                    background-color: rgb(0, 102, 180); 
+                    } 
+            /* Row wrapper of 'boxes underslider' */
+                .boxesunderslider {
+                    overflow:hidden;
+                    height:990px;
+                }
+                .boxunderslide:hover {
+                    background-color: rgb(254, 187, 3);
+                }
+            /* Single selector of div items of boxes that are underslider */
+                .boxunderslide {
+                    height:310px;
+                    border:solid;
+                    border-color:white;
+                    border-width:1px;
+                    background-color:#fec803;
+                    text-align: center;
+                    color:black;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                .boxesheaders{
+                    font-family: 'Lucida Sans Unicode', Arial, Sans-serif;
+                    cursor: context-menu;
+                }
+                .boxestext{
+                    padding-left:2px;
+                    padding-right:2px;
+                    font-size:15px;
+                    font-family: 'Lucida Sans Unicode', Arial, Sans-serif;
+                    cursor: context-menu;
+                }
+                .imagesinbox{
+                    margin-top:08%;
+                    margin-bottom:3%;
+                    display:block;
+                    margin-right:auto;
+                    margin-left:auto;height:50%;
+                }
+                            
+                @keyframes marquee {
+                    0% {
+                    background-position: 0;
+                    }
+                    100% {
+                    background-position: -1190px;
+                    }
+                }
+        }
+
+/* Third Layer */
+    /* Parallax Front */
+        .parallax {
+            /* Set a specific height and width */
+                /* min-height: 90vh;  */
+                min-height: 200px;
+                width: 100%;
+            /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-top:solid rgb(48, 52, 54) 3px;
+                border-bottom:solid rgb(48, 52, 54) 3px;
+                padding: 10vh;
+        }
+    
+
+/* Fourth Layer */
+
+/*##06#################################################################*/
+/*###################### Single Product page ##########################*/
+/*#####################################################################*/    
+.add_to_cart_single_product
+{
+    display: inline-block;
+    text-decoration: none;
+    font-style: italic;
+    padding-left: 10px;
+}
+.items_logo
+{
+  animation-direction: alternate;
+  animation-name: AnimateItemLogo;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+  height:50px!important;
+  object-fit:contain;
+}
+@keyframes AnimateItemLogo {
+    0% {transform: rotateY(0deg);}
+    10% {transform: rotateY(15deg);}
+    20% {transform: rotateY(30deg);}
+    30% {transform: rotateY(45deg);}
+    40% {transform: rotateY(60deg);}
+    50% {transform: rotateY(75deg);}
+    60% {transform: rotateY(90deg);}
+    70% {transform: rotateY(105deg);}
+    80% {transform: rotateY(120deg);}
+    90% {transform: rotateY(135deg);}
+    100% {transform: rotateY(150deg);}
+  }
+/* Entry Box */
+    /* PC VERSION */
+        .entry-box {
+            margin-bottom:60px;
+            color:white;
+            width:100%;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.5)!important;
+            background: linear-gradient(90deg, rgba(5,5,5,1) 0%, rgba(18,18,18,1) 50%, rgba(37,37,37,1) 100%);
+            border-radius:25px;
+        }
+        .team-logo {
+            width:100%;
+            height: 150px!important;
+            object-fit:contain;
+        }
+        .entry-box-logo {
+            border-right: solid #1c1c1c;
+        }
+        #account-details-wrapper{
+            /* height:500px; */
+            margin-bottom:60px;
+            width:100%;
+            color:white;
+        }
+        .account-details-yellow-boxes-wrapper {
+            height:25%;
+            padding:15px;
+        }
+        #account-details-wrapper .account-details-header {
+            text-align:center;
+            font-family: Ubuntu,sans-serif;
+            font-weight: bold;
+        }
+        #account-details-wrapper .account-details-header img
+        {
+            height: 100px;
+            vertical-align: text-bottom;
+        }
+        .account-details-yellow-boxes {
+            border-radius:10px;
+            border:solid #fec803 2px;
+            height:100%;
+            padding:15px;
+        }
+        .account-details-yellow-boxes-global-wrapper {
+            border-right:solid white;
+        }
+        .product-cart-data 
+        {
+            font-size:30px;
+            font-weight:bold;
+            padding-top:25px;
+            font-family: Ubuntu,sans-serif;
+        }
+        .product-cart-data img
+        {
+            vertical-align: bottom;
+            height: 60px !important;
+        }
+        #Pokemons-table_wrapper,
+        #pokemons_items_table_wrapper,
+        #pokemons_candies_table_wrapper {
+            width: 100%;
+            padding: 15px;
+        }
+        .dataTables_length,
+        .dataTables_filter {
+            color: white!important;
+        }
+        .dataTables_length select,
+        .dataTables_filter input {
+            background-color: white!important;
+        }
+        .product-cart-data {
+            text-align:center;
+            border-bottom:solid #1c1c1c;
+            color:white;
+            height:100px;
+            width:100%;
+            background-image: linear-gradient(18deg, rgba(5,5,5,1) 0%, rgba(18,18,18,1) 50%, rgba(37,37,37,1) 100%);
+            border-radius:25px 25px 0px 0px;
+        }
+    /* Mobile VERSION */
+        @media screen and (max-width:991px){
+            .entry-box {
+                margin-bottom:60px;
+                color:white;
+                width:100%;
+                box-shadow: 0 1rem 2rem rgba(0,0,0,.5)!important;
+                background: linear-gradient(90deg, rgba(5,5,5,1) 0%, rgba(18,18,18,1) 50%, rgba(37,37,37,1) 100%);
+                border-radius:25px;
+            }
+            .entry-box-logo {
+                border-right: none;
+                border-bottom: solid #1c1c1c;
+            }
+            .account-details-yellow-boxes-global-wrapper {
+                border-right:none;
+            }
+            #Pokemons-table_wrapper,
+            #pokemons_items_table_wrapper,
+            #pokemons_candies_table_wrapper {
+                overflow-x: scroll;
+            }
+            #pokemons_items_table_wrapper::-webkit-scrollbar,
+            #Pokemons-table_wrapper::-webkit-scrollbar,
+            #pokemons_candies_table_wrapper::-webkit-scrollbar {
+                height: 5px;
+            }
+            #pokemons_items_table_wrapper::-webkit-scrollbar-track,
+            #Pokemons-table_wrapper::-webkit-scrollbar-track,
+            #pokemons_candies_table_wrapper::-webkit-scrollbar-track {
+                background: transparent; 
+            }
+            #pokemons_items_table_wrapper::-webkit-scrollbar-thumb,
+            #Pokemons-table_wrapper::-webkit-scrollbar-thumb,
+            #pokemons_candies_table_wrapper::-webkit-scrollbar-thumb {
+                background: transparent; 
+            }
+            #pokemons_items_table_wrapper::-webkit-scrollbar-thumb:hover,
+            #Pokemons-table_wrapper::-webkit-scrollbar-thumb:hover,
+            #pokemons_candies_table_wrapper::-webkit-scrollbar-thumb:hover {
+                background: transparent; 
+            }
+            #account-details-wrapper .account-details-header img
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+
+
+
+    
+ 
+
+
+/*##07#################################################################*/
+/*########################### Page.php ################################*/
+/*#####################################################################*/
+/* Pokemon card */
+    /* Global selector*/
+    .pokemon-name:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        width: 50%;
+        height: 4px;
+        border-bottom: 4px solid #70eab9;
+    }
+    .pokemon-name {
+        color: #606060;
+        font-family: "Ubuntu",sans-serif;
+        font-size: 18px;
+        text-align: center;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+    .pokemons_wrapper_controller 
+    {
+        text-align: center;
+        max-height: 13%!important;
+        border-bottom: solid #60606025 1px;
+        margin-bottom: 15px;
+    }
+    .pokemons_wrapper_controller div
+    {
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+    .pokemons_wrapper_controller div:hover h6,
+    .pokemons_wrapper_controller div:hover
+    {
+       color: #22bb7e;
+    }
+    .pokemons_wrapper {
+        max-height: 80%!important;
+    }
+    .items_wrapper
+    {
+        max-height: 80%!important;
+        overflow: scroll!important;
+        text-align: center;
+    }
+    .items_wrapper h6
+    {
+        font-weight: bold;
+    }
+    .items_wrapper::-webkit-scrollbar
+    {
+        display: none;
+    }
+    .items_wrapper img
+    {
+        max-width: 100%!important;
+    }
+    .pokemons_card_is_selected,
+    .pokemons_card_is_selected h6
+    {
+        color: #22bb7e!important;
+    }
+    /* .display_pokemon:hover {
+        background-color: ;
+    } */
+    .display_pokemon h6,
+    .display_item h6
+    {
+        margin: 0px;
+        font-weight: bold;
+        color: #606060;
+    }
+    .card {
+        max-width:340px;
+        height:590px;
+        border-style:none;
+        border-radius: 15px 15px 15px 15px;
+        overflow: hidden;
+    }
+   
+    
+    .card-header {
+        color:white;
+        height:101px;
+        background: #536976;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .card-team-img {
+        width:75px;
+        height:75px;
+    }
+    .card-body {
+        border-color:rgba(0,0,0,0.3);;
+        border-width: 1px;
+        border-style: none solid;
+        padding: 20px!important;
+        padding-top: 10px!important;
+        overflow: hidden;
+    }
+    .card-pokemons {
+        max-height: 103px!important;
+    }
+    .card-pokemons:hover
+    {
+        cursor: pointer;
+        background-color: rgba(66, 66, 66, 0.13)!important;
+    }
+    .card-pokemons h6 {
+        text-align: center;
+    }
+    .card-pokemons img {
+        object-fit: contain;
+        width:100%;
+        height:40px;
+    }
+    .card-pokemons span:nth-child(1) {
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .card-pokemons span:nth-child(2) {
+        color: #606060;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+    }
+    .card-footer {
+        box-sizing: border-box;
+        background-color:#fec803;
+        border-color:rgba(0,0,0,0.3);;
+        border-width: 1px;
+        border-style: none solid solid;
+    }
+    .shiny-accounts-article .price-tag,
+    .zero-shiny-accounts-article .price-tag,
+    .cheap-accounts-article .price-tag,
+    .vanilla-accounts-article .price-tag
+    {
+        background-color: #fec803;
+    }
+    .recommended-accounts-article .card-footer
+    {
+        background-color:#007be3;
+    }
+    .recommended-accounts-article .submit_cart_url_shiny,
+    .recommended-accounts-article a.card-links
+    {
+        color:#fec803;
+    }
+    .recommended-accounts-article .submit_cart_url_shiny:hover,
+    .recommended-accounts-article a.card-links:hover
+    {
+        color: rgb(56, 48, 17);
+    }
+    .submit_cart_url_shiny 
+    {
+        padding: 0;
+        border: none!important;
+        background: none;
+        font-size:20px;
+        color:#007be3;
+        font-weight:bold;
+       
+    }
+    .submit_cart_url_shiny:hover 
+    {
+        border: none!important;
+        color: rgb(4, 1, 63);
+    }
+    div.card-links 
+    {
+        text-align:center;
+        border-right: solid 1px #516080;
+    } 
+    a.card-links,
+    span.card-links {
+        cursor: pointer;
+        text-align:center;
+        font-size:20px;
+        color:#007be3;
+        font-weight:bold;
+        text-decoration: none;
+    }
+    a.card-links:hover,
+    span.card-links:hover {
+        text-decoration: none;
+        color: rgb(4, 1, 63);
+    }
+    .product-cart::marker {
+        content: none;
+    }
+    .pokemons-card {
+        height:auto;
+        background-color:transparent;
+    }
+    
+    .categories-links
+    {
+        margin-bottom: 50px;
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .categories-links h1
+    {
+        text-align: center;
+  
+    }
+    
+    .categories-links a
+    {
+        text-shadow:5px 5px 30px black;
+        font-size: 50px;
+        text-decoration: none;
+        font-family: "DejaVu Sans Mono", monospace;
+        margin-bottom: 20px;
+        color: #ffcc00;
+        letter-spacing: 4px;
+    }
+    
+    .categories-links a:hover {
+        color: #007be3;
+        text-decoration: none;
+    }
+    
+    .recommended-accounts-article .categories-links,
+    .shiny-accounts-article .categories-links,
+    .zero-shiny-accounts-article .categories-links,
+    .vanilla-accounts-article .categories-links,
+    .cheap-accounts-article .categories-links,
+    .info_container_shop .categories-links
+    {
+        text-align: center;
+        color: white;
+        font-weight: bold!important;
+    }
+    .recommended-accounts-article .categories-links h1,
+    .shiny-accounts-article .categories-links h1,
+    .zero-shiny-accounts-article .categories-links h1,
+    .vanilla-accounts-article .categories-links h1,
+    .cheap-accounts-article h1,
+    .info_container_shop .categories-links h1
+    {
+        color: #fec803;
+    }
+    
+    .product_carousel-cell 
+    {
+        width: 33%;
+        margin-right: 3px;
+    }
+    #waveTop
+    {
+        position:absolute;
+        left:0;
+        right:0;
+        transform:rotate(180deg);
+        transition: 0.3s
+    }
+    #waveBottom 
+    {
+        position:absolute;
+        left:0;
+        right:0;
+        transform:rotate(0deg);
+        transition: 0.3s;
+    }
+    .recommended-accounts-article .is-selected h4
+    {
+        color: rgb(224, 0, 0)!important;
+    }
+    .is-selected h4
+    {
+        color: #fec803!important;
+    }
+    .looking-more {
+        text-align: left;
+        padding: 23px;
+    }
+    .looking-more h4
+    {
+        margin-bottom: 10%;
+        padding-top: 25%;
+        font-size: xx-large;
+        color: white;
+        font-weight: bolder;
+        font-family: Ubuntu,sans-serif;
+    }
+    .looking-more a 
+    {
+        padding: 20px;
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+    .looking-more a:hover
+    {
+        text-decoration: unset;
+        
+    }
+    .recommended-accounts-article .looking-more a
+    {
+        background-color: firebrick!important;
+    }
+    .recommended-accounts-article .looking-more a:hover
+    {
+        background-color: rgb(105, 21, 21)!important;
+    }
+    .looking-more a
+    {
+        background-color: #fec803;
+    }
+    .looking-more a:hover
+    {
+        background-color: #a88402;
+    }
+    @media screen and (min-width: 1025px) {
+        .flickity-prev-next-button.previous {
+            left: -40px!important;
+        }
+        .flickity-prev-next-button.next {
+            right: -40px!important;
+        }
+    }
+
+    /* Mobile version */
+        @media screen and (max-width: 991px) {
+            .card { 
+                margin: 0 auto;
+            }
+            .card-wrapper {
+                margin-bottom: 10px;
+            }
+            .categories-links
+            {
+                height: 100px;
+            }
+            .categories-links a
+            {
+                font-size: 16px;
+            }
+            .product_carousel-cell 
+            {
+                width: 100%;
+                margin-right: 5px;
+            }
+            
+            
+        }
+
+/* Product Filter */
+    /* ASIDE FILTER */
+        .hide-advanced-search{
+            display: none;
+        }
+        .pokes-loader{
+            display: none;
+        }
+        div.pokes-loader 
+        {
+            top:0%;
+            left:0%;
+            z-index:3;
+            background-color:rgba(255,255,255,0.3);
+            width:100%;
+            height:100%;
+            position:fixed;
+        }
+        img.pokes-loader
+        {
+            position:fixed;
+            height:50px;
+            width:50px;
+            top:50%;
+            left:50%;
+            margin-top:-25px;
+            margin-left:-25px;
+            z-index:4;
+        }
+        /*the container must be positioned relative:*/
+        .autocomplete {
+            position: relative;
+        }
+        
+        #pokemon_name_filter,
+        #pokemon_cp_filter,
+        #pokemon_attack_one_filter,
+        #pokemon_attack_two_filter {
+            border: 1px solid transparent;
+            background-color: #f1f1f1;
+            padding: 7px;
+            font-size: 16px;
+            width: 100%;
+        }
+        
+        .autocomplete-items {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            border-top: none;
+            z-index: 99;
+            /*position the autocomplete items to be the same width as the container:*/
+            top: 100%;
+            left: 0;
+            right: 0;
+        }
+        
+        .autocomplete-items div {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #fff; 
+            color: black;
+            border-bottom: 1px solid #d4d4d4; 
+        }
+        
+        /*when hovering an item:*/
+        .autocomplete-items div:hover {
+            background-color: #e9e9e9; 
+        }
+        
+        /*when navigating through the items using the arrow keys:*/
+        .autocomplete-active {
+            background-color: DodgerBlue !important; 
+            color: #ffffff; 
+        }
+        /* Pc Version */
+        @media screen and (min-width: 992px) {
+            /* Aside Holder */
+                #effect-line {
+                    background-image: url('images/gradiant.gif');
+                    background-size: 100% 100%;
+                    top:0%;
+                    width:5px;
+                    right:0%;
+                    position:absolute;
+                }
+                #product-filter {
+                    position: fixed;
+                    z-index: 15;
+                    top: 0%;
+                    min-width:30%;
+                    height: 100%;
+                    box-sizing: border-box;
+                    
+                }
+                .hide-filter {
+                    transform: translate(-100%,0%);
+                    transition: .3s;
+                }
+                .show-filter {
+                    transform: translate(0%,0%);
+                    transition: .3s;
+                }
+                #advanced_search_checkbox
+                {
+                    width: auto!important;
+                    display: inline-block!important;
+                }
+                .label_advanced_search
+                {
+                    color: white;
+                }
+            /* Form holder */    
+                #pokeSearch{
+                    padding: 7%;
+                    min-width: 100%;
+                    background-color: #101011; 
+                    overflow-y: scroll;
+                    direction: rtl;
+                    /* border-right: solid blue; */
+                    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+                    position: relative;
+                }
+                #pokeSearch::-webkit-scrollbar {
+                    width: 5px;
+                    
+                }
+                #pokeSearch::-webkit-scrollbar-track {
+                    background: transparent; 
+                }
+                /* Handle */
+                #pokeSearch::-webkit-scrollbar-thumb {
+                    background: rgb(100, 97, 97); 
+                    
+                }
+                
+                /* Handle on hover */
+                #pokeSearch::-webkit-scrollbar-thumb:hover {
+                    background: rgb(71, 69, 69); 
+                }
+
+                #pokeSearch input{
+                    display: block;
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+                #pokeSearch input[type="submit"]{
+                    background-color: rgb(31, 30, 30);
+                    border-color: transparent;
+                    color: white;
+                }
+                /* Form filter Inputs */
+                    .input_wrapper{
+                        direction: ltr;
+                        color: white;
+                        font-weight: bold;
+                        padding: 15px;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+                        background: #232526;  /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to right, #37393b, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to right, #2e3031, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    }
+
+                    .range_filter 
+                    {
+                        width: 400px;
+                        height: 15px;
+                        -webkit-appearance: none;
+                        background: #111;
+                        outline: none;
+                        border-radius: 15px;
+                        overflow: hidden;
+                        box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+                    }
+                    .range_filter::-webkit-slider-thumb 
+                    {
+                        -webkit-appearance: none;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        background: #fec803;/* #00fd0a */
+                        cursor: pointer;
+                        border: 4px solid #333;
+                        box-shadow: -407px 0 0 400px #fec803;/*  #00fd0a*/
+                    }
+                    /* .range_filter {
+                        background: white;
+                        -webkit-appearance: none;  
+                    }
+                    
+                    .range_filter::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        background: blue;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        opacity: 0.7;
+                        cursor: pointer;
+                    }
+                    
+                    .range_filter::-webkit-slider-thumb:hover{
+                        opacity: 1;
+                    } */
+            /* Aside Btn */        
+            #pokesbtnwrapper{
+                width: 0%;
+                /* margin-left:10px; */
+                padding-top: 130%;
+                overflow: visible;
+                
+            }
+            #pokesbtndisplay
+            {
+                padding-left: 10px;
+            }
+            #pokesbtndisplay svg {
+                
+                opacity: 0.8;
+                background-color: #70eab9;
+                padding: 10px;
+                transition: .3s;
+                border-radius: 10%;
+            }
+            
+            #pokesbtndisplay svg:hover{
+                opacity: 1;
+                transition: .3s;
+            }
+            #mobile-btn-wrapper,#mobile-btn-colse {
+                display: none;
+            }
+
+        }
+
+    /* Mobile Version */
+        @media screen and (max-width: 991px) {
+            /* Aside Holder */
+            #effect-line {
+                display: none;
+            }
+            .aside_visibility_hidden {
+                visibility: hidden;
+                transform: rotateY(90deg);
+                transition: .3s;
+            }
+            .aside_visibility_display {
+                visibility: visible;
+                transform: rotateY(0deg);
+                transition: .3s;
+            }
+            #pokesbtnwrapper {
+                display: none;
+            }
+            #product-filter{
+                position: fixed;
+                top:0%;
+                left:0%;
+                background-color: #55b18c;
+                z-index: 15;
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+                
+                
+            }
+            #pokeSearch {
+                padding: 30px;
+                height: 100%;
+                overflow-y: scroll;
+            }
+            .input_wrapper{
+                width: 100%;
+                margin-bottom: 20px;
+                color: white;
+                font-weight: bold;
+                padding-bottom: 10px;
+                border-bottom: solid teal;
+            }
+            .input_wrapper input{
+                width: 100%;
+            }
+            #mobile-btn-wrapper {
+                position: fixed;
+                top: 85%;
+                left: 1%;
+                z-index: 14;
+                background-color: #70eab9;
+                padding: 5px;
+                border-radius: 25%;
+                cursor: pointer;
+            }
+            #mobile-btn-colse {
+                cursor: pointer;
+                background-color: transparent;
+                color: red;
+                border:solid red;
+                padding: 5px;
+                width: 50px;
+                margin-left: auto;
+                margin-bottom: 15px;
+            }
+        }
+        /* Shop Page Show */
+    /* PC VERSION */
+        #show
+        {
+            margin-bottom: 50px;
+        }
+        #show div div 
+        {
+            height: 100%;
+        }
+        #wide_screen 
+        {
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            height: 400px!important;
+        }
+        #wide_screen img
+        {
+            transform-origin: 10% 30%;
+            transition: transform 2s ease, filter 1s;
+            filter: brightness(90%);
+            height: 100%;
+            width: 100%;
+        }
+
+        #wide_screen:hover img
+        {
+            filter: brightness(100%);
+            transform: scale(2);
+        }
+
+        #wide_screen:hover div,
+        #columned_screen_1:hover div,
+        #columned_screen_2:hover div
+        {
+            height: 44%!important;
+        
+        }
+        #wide_screen div,
+        #columned_screen_1 div,
+        #columned_screen_2 div
+        {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        height: 0%!important;  
+        background-color: transparent!important;
+        transition: height .5s ease;
+        font-family: Ubuntu,sans-serif;
+        background: linear-gradient(0deg, rgba(5,2,129,0.8426724137931034) 0%, rgba(9,9,121,0.5366379310344828) 41%, rgba(243,255,0,0) 100%);
+        }
+        #wide_screen div p
+        {
+            font-size: 25px;
+            padding: 30px;
+            color: white;
+            padding-top: 50px;
+            font-weight: bold;
+            font-family: Ubuntu,sans-serif;
+        }
+        #wide_screen div p span,
+        #columned_screen_1 div p span
+        {
+            color: goldenrod;
+            font-size: medium;
+            font-weight: bold;
+            display: block;
+        }
+        #columned_screen_1 div p,
+        #columned_screen_2 div p
+        {
+            font-size: 24px;
+            color: white;
+            padding-top: 10px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        #columned_screen_1,
+        #columned_screen_2
+        {
+            cursor: pointer;
+            height: 200px!important;
+            overflow: hidden;
+            position: relative;
+        }
+        #columned_screen_1 img,
+        #columned_screen_2 img
+        {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transform-origin: 50% 50%;
+            transition: transform 2s ease, filter 1s;
+            filter: brightness(90%);
+        }
+        #columned_screen_1:hover img,
+        #columned_screen_2:hover img
+        {
+            filter: brightness(100%);
+            transform: scale(2);
+        }
+
+        /* Mobile version */
+            @media screen and (max-width:991px) 
+            {
+                #show
+                {
+                    display:none;
+                }
+            }
+
+/*##08#################################################################*/
+/*########################## Discord Chat #############################*/
+/*#####################################################################*/ 
+
+    /* Discord chat tab */
+        #discord-chat-tab {
+            padding: 0px;    
+            border-radius: 16px;
+            top: auto;
+            width: 100%;
+            visibility: hidden;
+            height: 80%;
+        }
+
+        #discord-chat-tab-btn-wrapper {
+            background: transparent;
+            color: white;
+            height: 20%;
+            visibility: hidden;
+            width: 100%;
+        }
+        #discord-chat-container {
+            height: 100%;
+            width: 100%;
+        }
+
+        #discord-chat-wrapper {
+            position: fixed; 
+            z-index: 2147483646;
+            padding: 0px;
+            top: auto;
+            bottom: 0%;
+            width: 399px;
+            max-height: 100vh;
+            background: none;
+            right: 4px;
+            margin-right: 12px;
+            min-height: 360px;
+            height: 732px;
+            visibility: hidden;
+        }
+        #discord-chat-tab-btn-wrapper .discordlogo-chat {
+            float: right;
+            font-size: 70px;
+            transition: .3s;
+            cursor: pointer;
+            color: #007be3;
+        }
+        @media screen and (min-width:992px) {
+            #discord-chat-tab-btn-wrapper .discordlogo-chat:hover {
+                transform: rotate(360deg);
+                transition: .3s;
+                font-size: 75px;
+                color:#8a9cfe;
+            }
+        }
+        .discord-chat-tab-display {
+            transition: .3s;
+        }
+
+        /* Mobile Version */
+            @media screen and (max-width:991px) {
+                #discord-chat-wrapper {
+                    position: fixed;
+                    visibility: hidden;
+                    width: 100%;
+                    top:0%;
+                    left:0%;
+                    margin: 0px;
+                    height: 100%;
+                }
+                #discord-chat-tab {
+                    padding: 5px;
+                }
+                .discordlogo-chat-mobile {
+                    transform: rotate(360deg);
+                    transition: .3s;
+                    font-size: 75px;
+                    color:#8a9cfe;
+                }
+                
+            }
+
+/*##09#################################################################*/
+/*########################### Woocommerce #############################*/
+/*#####################################################################*/ 
+    #stripe-card-element,
+    .stripe-card-group
+    {
+        width: 100%;
+    }
+    #stripe-exp-element
+    {
+        width: 20%;
+    }
+    #stripe-cvc-element
+    {
+        width: 15%;
+    }
+    /* product cart */
+        .price-tag {
+            position:absolute;
+            top:0%;
+            right:3%;
+            background-color:#007be3;
+            padding:10px;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+            border-radius: 0px 0px 10px 10px;
+            font-weight: bold;
+        }
+
+    /* Woocommerce */
+        /* woocommerce success notice */
+            .woocommerce-message {
+                margin-bottom: 5px!important;
+                border-bottom: solid #8fae1b;
+            }
+        /* woocommerce errror notice */
+            .woocommerce-error {
+                margin-bottom: 5px!important;
+                border-bottom: solid #b81c23;
+            }
+            
+    /* Checkout page */
+        .woocommerce-billing-fields__field-wrapper p,
+        .woocommerce-additional-fields__field-wrapper p{
+            display: block!important;
+        }
+
+    /* WOO edits button*/
+    .checkout-button,
+    #place_order
+    {
+        background-color: #c39900!important;
+    }
+    .checkout-button:hover,
+    #place_order:hover
+    {
+        background-color: #007bff!important;
+    }
+    .woocommerce-message a,
+    .woocommerce-error a,
+    .woocommerce-info a
+    {
+        font-size: 100%;
+        margin: 0;
+        line-height: 1;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        overflow: visible;
+        padding: .618em 1em;
+        font-weight: 700;
+        border-radius: 3px;
+        left: auto;
+        color: #515151;
+        background-color: #ebe9eb;
+        border: 0;
+        display: inline-block;
+        background-image: none;
+        box-shadow: none;
+        text-shadow: none;
+    }
+    .woocommerce-message a:hover,
+    .woocommerce-error a:hover,
+    .woocommerce-info a:hover
+    {
+        background-color: #dfdcde;
+        text-decoration: none;
+        background-image: none;
+        color: #515151;
+    }
+
+/*##10#################################################################*/
+/*###################### Content-search.php ###########################*/
+/*#####################################################################*/
+.search_article_hr
+{
+    background-color: rgba(100, 100, 100, 0.2);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.search_article_hr:last-of-type 
+{
+    display: none;
+}
+.serach_article 
+{
+    min-width  : 100%!important;
+    height: initial!important;
+}
+.serach_article img
+{
+    height:200px;
+    object-fit:cover;
+}
+.serach_article .card-body
+{
+    border-style: solid!important;
+}
+
+/*##11#################################################################*/
+/*########################## Product Php# #############################*/
+/*#####################################################################*/ 
+    .card-header-40-shiny .card-header
+    {
+        background: #8E2DE2!important;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2)!important;  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4A00E0, #8E2DE2)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .card-header-30-shiny .card-header,
+    .card-header-31-shiny .card-header,
+    .card-header-32-shiny .card-header,
+    .card-header-33-shiny .card-header,
+    .card-header-34-shiny .card-header
+    {
+        background: #2193b0!important;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0)!important;  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6dd5ed, #2193b0)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .card-header-35-shiny .card-header,
+    .card-header-36-shiny .card-header,
+    .card-header-37-shiny .card-header,
+    .card-header-38-shiny .card-header,
+    .card-header-39-shiny .card-header
+    {
+        background: #67B26F!important;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F)!important;  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4ca2cd, #67B26F)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .card-header-40-zero .card-header 
+    {
+        background: #41295a!important;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2F0743, #41295a)!important;  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2F0743, #41295a)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    }
+    .card-header-30-zero .card-header,
+    .card-header-31-zero .card-header,
+    .card-header-32-zero .card-header,
+    .card-header-33-zero .card-header,
+    .card-header-34-zero .card-header
+    {
+        background: #1e3c72!important;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2a5298, #1e3c72)!important;  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2a5298, #1e3c72)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    .card-header-35-zero .card-header,
+    .card-header-36-zero .card-header,
+    .card-header-37-zero .card-header,
+    .card-header-38-zero .card-header,
+    .card-header-39-zero .card-header
+    {
+        background: #67B26F!important;  
+        background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F)!important;  
+        background: linear-gradient(to right, #0d2b3b, #032707)!important;
+    
+    }
+    .product_name
+    {
+        cursor: pointer;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        background-color: #484646;
+        z-index: 2;
+    }
+
+    .add_remove_cart_url_loadingimg {
+        width:25px;
+        height:25px;
+        display: none;
+    }
+/*##12#################################################################*/
+/*############################# faq.php ###############################*/
+/*#####################################################################*/
+
+    /* Menus */
+
+        .collapsible {
+            background-color: wheat;
+            color: black;
+            cursor: pointer;
+            font-weight:bold;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 26px;
+        }
+
+        .collapsible_active, .collapsible:hover {
+        background-color: #fec803;
+        }
+
+        .collapsible:after {
+        content: '\002B';
+        color: #007be3;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        }
+
+        .collapsible_active:after {
+        content: "\2212";
+        }
+
+        .collapsible_content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+        font-size: 20px;
+
+        }
+        .collapsible_content div
+        {
+         padding: 15px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////*/
+
+.card-header-40-shiny:hover,
+.product_carousel-cell.is-selected .card-header-40-shiny
+{
+    box-shadow: 0 .5rem 1rem rgba(142, 45, 226,1)!important;
+  
+}
+.card-header-30-shiny:hover,
+.product_carousel-cell.is-selected .card-header-30-shiny,
+.card-header-31-shiny:hover,
+.product_carousel-cell.is-selected .card-header-31-shiny,
+.card-header-32-shiny:hover,
+.product_carousel-cell.is-selected .card-header-32-shiny,
+.card-header-33-shiny:hover,
+.product_carousel-cell.is-selected .card-header-33-shiny,
+.card-header-34-shiny:hover,
+.product_carousel-cell.is-selected .card-header-34-shiny
+{
+    box-shadow: 0 .5rem 1rem rgba(33, 147, 176,1)!important;
+}
+.card-header-35-shiny:hover,
+.product_carousel-cell.is-selected .card-header-35-shiny,
+.card-header-36-shiny:hover,
+.product_carousel-cell.is-selected .card-header-36-shiny,
+.card-header-37-shiny:hover,
+.product_carousel-cell.is-selected .card-header-37-shiny,
+.card-header-38-shiny:hover,
+.product_carousel-cell.is-selected .card-header-38-shiny,
+.card-header-39-shiny:hover,
+.product_carousel-cell.is-selected .card-header-39-shiny
+{
+    box-shadow: 0 .5rem 1rem rgba(103, 178, 111,1)!important;
+}
+.card-header-40-zero:hover,
+.product_carousel-cell.is-selected .card-header-40-zero
+{
+    box-shadow: 0 .5rem 1rem rgba(65, 41, 90,1)!important;
+}
+.card-header-30-zero:hover,
+.product_carousel-cell.is-selected .card-header-30-zero,
+.card-header-31-zero:hover,
+.product_carousel-cell.is-selected .card-header-31-zero,
+.card-header-32-zero:hover,
+.product_carousel-cell.is-selected .card-header-32-zero,
+.card-header-33-zero:hover,
+.product_carousel-cell.is-selected .card-header-33-zero,
+.card-header-34-zero:hover,
+.product_carousel-cell.is-selected .card-header-34-zero
+{
+    box-shadow: 0 .5rem 1rem rgba(30, 60, 114,1)!important;     
+}
+
+
+.card-header-35-zero:hover,
+.product_carousel-cell.is-selected .card-header-35-zero,
+.card-header-36-zero:hover,
+.product_carousel-cell.is-selected .card-header-36-zero,
+.card-header-37-zero:hover,
+.product_carousel-cell.is-selected .card-header-37-zero,
+.card-header-38-zero:hover,
+.product_carousel-cell.is-selected .card-header-38-zero,
+.card-header-39-zero:hover,
+.product_carousel-cell.is-selected .card-header-39-zero
+{
+    box-shadow: 0 .5rem 1rem rgba(103, 178, 111,1)!important;   
+}
+
+
+/* Global indexes 
+z-index 
+  Navbar :: 15 ; 
+  carousel :: 5 ;
+
+*/ 
+
